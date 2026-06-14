@@ -1,0 +1,4 @@
+# Keep web assets and the CNAME file as LF in the repository
+* text=auto eol=lf
+*.png binary
+*.svg text eol=lf
