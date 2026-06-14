@@ -13,8 +13,8 @@ It is the third of three sibling sites, all built the same way:
 | File | Purpose |
 | --- | --- |
 | `index.html` | The entire page (semantic HTML, anchor sections, tiny vanilla JS for smooth scroll and sticky nav). |
-| `styles.css` | All styling. Dark, structural identity: warm near-black base, off-white text, muted rust/ochre accent, Fraunces + Inter, strata dividers. |
-| `favicon.svg` | Monochrome stratified-rock motif. |
+| `styles.css` | All styling. Shares the exact brand of lead-onpurpose.com: the same palette (yellow `#f5d000` / black / white) and the same fonts (Oswald headings, Libre Baskerville serif accents, Inter body). |
+| `favicon.svg` | Stratified-rock motif in the brand yellow on black. |
 | `book-cover.png` | The cover art. **Not yet added** — until it exists, a CSS-styled placeholder renders in its place so the layout never breaks. |
 | `CNAME` | Declares the custom domain `culture-ishard.com` to GitHub Pages. |
 | `.nojekyll` | Tells Pages to serve files as-is, no Jekyll build. |
@@ -33,7 +33,7 @@ All copy lives directly in `index.html`, in document order:
 6. **Further Reading** (`#reading`) — the four related books.
 7. **CTA banner + footer** — closing line, links, copyright.
 
-Colours, fonts and spacing are CSS custom properties at the top of `styles.css` (`:root`). Change the accent in one place via `--accent`.
+Colours, fonts and spacing are CSS custom properties at the top of `styles.css` (`:root`), matching lead-onpurpose.com exactly (`--yellow`, `--black`, `--white`, `--grey`, and so on). Keeping these in sync is what makes the printed book and the two sites read as one set.
 
 ## Outstanding TODOs
 
