@@ -438,6 +438,30 @@ nav.nav--scrolled {
     background: var(--base-2);
 }
 
+.feature-quote {
+    margin: 0 0 3.5rem;
+    padding: 3.25rem 0;
+    border-top: 2px solid var(--accent);
+    border-bottom: 2px solid var(--accent);
+    background-image: repeating-linear-gradient(
+        to bottom,
+        rgba(236, 228, 215, 0.04) 0,
+        rgba(236, 228, 215, 0.04) 1px,
+        transparent 1px,
+        transparent 11px
+    );
+}
+
+.feature-quote p {
+    font-family: 'Fraunces', serif;
+    font-weight: 900;
+    font-size: clamp(2rem, 5.5vw, 4rem);
+    line-height: 1.04;
+    letter-spacing: -0.015em;
+    color: var(--text);
+    max-width: 16ch;
+}
+
 .changed-grid {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
