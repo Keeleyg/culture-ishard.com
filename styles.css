@@ -624,6 +624,15 @@ nav.nav--scrolled {
     color: var(--yellow-dark);
 }
 
+.book-meta {
+    margin-top: 1.75rem;
+    font-family: 'Oswald', sans-serif;
+    font-size: 0.78rem;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--grey);
+}
+
 /* About the Author */
 .section-author {
     background: var(--light-grey);
