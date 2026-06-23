@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 651 983" role="img" aria-label="Culture Is Hard by Gavin Keeley">
+  <rect width="651" height="983" fill="#0a0a0a"/>
+  <g fill="#f5d000" font-family="'Arial Black', 'Arial Bold', Arial, Helvetica, sans-serif" font-weight="900">
+    <!-- Title: each main line fills the column width -->
+    <text x="42" y="195" font-size="132" textLength="567" lengthAdjust="spacingAndGlyphs">CULTURE</text>
+    <text x="325.5" y="378" font-size="170" text-anchor="middle">IS</text>
+    <text x="42" y="565" font-size="190" textLength="567" lengthAdjust="spacingAndGlyphs">HARD</text>
+    <!-- Subtitle -->
+    <g font-size="31" font-weight="800" text-anchor="middle">
+      <text x="325.5" y="668">Why AI Destroys Organisations with</text>
+      <text x="325.5" y="709">Bad Cultures and Judges Will Jail</text>
+      <text x="325.5" y="750">the People Who Build Them</text>
+    </g>
+    <!-- Author -->
+    <text x="325.5" y="895" font-size="62" text-anchor="middle">GAVIN KEELEY</text>
+  </g>
+</svg>
